@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char CppDependencyTutorialVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CppDependencyTutorial/PublicHeader.h>
 
-#import <CppDependencyTutorial/CppDependencyWrapper.h>
+#import <CppDependencyTutorial/CHCppDependencyWrapper.h>

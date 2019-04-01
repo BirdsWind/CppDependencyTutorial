@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		16A1D1BB2226281B00976810 /* CppDependencyTutorial.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A1D1AD2226281B00976810 /* CppDependencyTutorial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16A1D1CF2226293900976810 /* CppDependencyWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A1D1CD2226293900976810 /* CppDependencyWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16A1D1D02226293900976810 /* CppDependencyWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 16A1D1CE2226293900976810 /* CppDependencyWrapper.mm */; };
+		16A1D1CF2226293900976810 /* CHCppDependencyWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A1D1CD2226293900976810 /* CHCppDependencyWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16A1D1D02226293900976810 /* CHCppDependencyWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 16A1D1CE2226293900976810 /* CHCppDependencyWrapper.mm */; };
 		16A1D1D2222629F500976810 /* libExampleC++Library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A1D1CA2226285000976810 /* libExampleC++Library.a */; };
 		16A1D1DD2226358000976810 /* ObjCWrapperTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A1D1DC2226358000976810 /* ObjCWrapperTutorialTests.swift */; };
 		16A1D1DF2226358000976810 /* CppDependencyTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A1D1AA2226281B00976810 /* CppDependencyTutorial.framework */; };
@@ -44,8 +44,8 @@
 		16A1D1AD2226281B00976810 /* CppDependencyTutorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppDependencyTutorial.h; sourceTree = "<group>"; };
 		16A1D1AE2226281B00976810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A1D1C42226285000976810 /* ExampleC++Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ExampleC++Library.xcodeproj"; path = "../ExampleC++Library/ExampleC++Library.xcodeproj"; sourceTree = "<group>"; };
-		16A1D1CD2226293900976810 /* CppDependencyWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CppDependencyWrapper.h; path = CppDependencyTutorial/CppDependencyWrapper.h; sourceTree = "<group>"; };
-		16A1D1CE2226293900976810 /* CppDependencyWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CppDependencyWrapper.mm; path = CppDependencyTutorial/CppDependencyWrapper.mm; sourceTree = "<group>"; };
+		16A1D1CD2226293900976810 /* CHCppDependencyWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CHCppDependencyWrapper.h; path = CppDependencyTutorial/CHCppDependencyWrapper.h; sourceTree = "<group>"; };
+		16A1D1CE2226293900976810 /* CHCppDependencyWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CHCppDependencyWrapper.mm; path = CppDependencyTutorial/CHCppDependencyWrapper.mm; sourceTree = "<group>"; };
 		16A1D1DA2226358000976810 /* ObjCWrapperTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCWrapperTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A1D1DC2226358000976810 /* ObjCWrapperTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjCWrapperTutorialTests.swift; sourceTree = "<group>"; };
 		16A1D1DE2226358000976810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		16A1D1A02226281B00976810 = {
 			isa = PBXGroup;
 			children = (
-				16A1D1CD2226293900976810 /* CppDependencyWrapper.h */,
-				16A1D1CE2226293900976810 /* CppDependencyWrapper.mm */,
+				16A1D1CD2226293900976810 /* CHCppDependencyWrapper.h */,
+				16A1D1CE2226293900976810 /* CHCppDependencyWrapper.mm */,
 				16A1D1C42226285000976810 /* ExampleC++Library.xcodeproj */,
 				16A1D1AC2226281B00976810 /* CppDependencyTutorial */,
 				16A1D1DB2226358000976810 /* ObjCWrapperTutorialTests */,
@@ -135,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A1D1BB2226281B00976810 /* CppDependencyTutorial.h in Headers */,
-				16A1D1CF2226293900976810 /* CppDependencyWrapper.h in Headers */,
+				16A1D1CF2226293900976810 /* CHCppDependencyWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A1D1D02226293900976810 /* CppDependencyWrapper.mm in Sources */,
+				16A1D1D02226293900976810 /* CHCppDependencyWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

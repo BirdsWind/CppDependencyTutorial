@@ -14,9 +14,15 @@ using namespace std;
 
 #pragma mark - Global variable
 
-string globalString = "I am C++";
+const int versionNumber = 1001;
 
-#pragma mark - function
+#pragma mark - Class constructor
+
+ExampleCppLibrary::ExampleCppLibrary(int version) {
+    this->version = version;
+}
+
+#pragma mark - Function
 
 string ExampleCppLibrary::randomString(int size) {
     string result;
@@ -31,13 +37,13 @@ string ExampleCppLibrary::randomString(int size) {
     return result;
 }
 
-#pragma mark - struct
+#pragma mark - Struct
 
 void printCNationalityCountry(struct CNationality const nationality) {
-    cout<<"C function nationality is " << nationality.country<<endl;
+    cout<<"C function nationality is "<<nationality.country<<endl;
 }
 
-#pragma mark - Global enum
+#pragma mark - Enum
 
 enum 曜日 現在の曜日() {
     time_t rawtime;
